@@ -1,0 +1,358 @@
+2025-05-15 17:13:38 INFO Config carregada: BRL \u2192 ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-15 17:14:52 INFO Config carregada: BRL \u2192 ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-15 17:15:53 ERROR Falha BRL\u2192SRD em 26.40 s: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+Traceback (most recent call last):
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 89, in consultar_cotacao
+    date_input = wait.until(EC.presence_of_element_located(
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+
+2025-05-15 17:17:37 INFO Config carregada: BRL \u2192 ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-15 17:18:35 ERROR Falha BRL\u2192SRD em 41.73 s: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+Traceback (most recent call last):
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 89, in consultar_cotacao
+    date_input = wait.until(EC.presence_of_element_located(
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+
+2025-05-15 17:19:59 ERROR Falha BRL\u2192USD em 83.99 s: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ctl00_contentPlaceHolderConteudo_valorOrigem"]"}
+  (Session info: chrome=136.0.7103.93); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+Traceback (most recent call last):
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 94, in consultar_cotacao
+    amount_input = driver.find_element(By.ID, "ctl00_contentPlaceHolderConteudo_valorOrigem")
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ctl00_contentPlaceHolderConteudo_valorOrigem"]"}
+  (Session info: chrome=136.0.7103.93); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+
+2025-05-15 17:21:05 ERROR Falha BRL\u2192GTQ em 65.88 s: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+Traceback (most recent call last):
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 89, in consultar_cotacao
+    date_input = wait.until(EC.presence_of_element_located(
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+
+2025-05-15 17:21:27 ERROR Falha BRL\u2192UGX em 22.03 s: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+Traceback (most recent call last):
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "C:\Users\Francisco\PycharmProjects\no_idle\cotacao_moedas.py", line 89, in consultar_cotacao
+    date_input = wait.until(EC.presence_of_element_located(
+  File "C:\Users\Francisco\PycharmProjects\no_idle\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65D47CF65+75717]
+	GetHandleVerifier [0x00007FF65D47CFC0+75808]
+	(No symbol) [0x00007FF65D248F9A]
+	(No symbol) [0x00007FF65D29F4C6]
+	(No symbol) [0x00007FF65D29F77C]
+	(No symbol) [0x00007FF65D2F2577]
+	(No symbol) [0x00007FF65D2C73BF]
+	(No symbol) [0x00007FF65D2EF39C]
+	(No symbol) [0x00007FF65D2C7153]
+	(No symbol) [0x00007FF65D290421]
+	(No symbol) [0x00007FF65D2911B3]
+	GetHandleVerifier [0x00007FF65D77D74D+3223469]
+	GetHandleVerifier [0x00007FF65D777CF2+3200338]
+	GetHandleVerifier [0x00007FF65D795B23+3322755]
+	GetHandleVerifier [0x00007FF65D496A3A+180890]
+	GetHandleVerifier [0x00007FF65D49E13F+211359]
+	GetHandleVerifier [0x00007FF65D4852B4+109332]
+	GetHandleVerifier [0x00007FF65D485462+109762]
+	GetHandleVerifier [0x00007FF65D46BA79+4825]
+	BaseThreadInitThunk [0x00007FFA03ECE8D7+23]
+	RtlUserThreadStart [0x00007FFA047914FC+44]
+
+2025-05-17 08:52:32 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:13:15 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:14:07 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:26:29 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:27:08 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:27:46 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:28:04 ERROR Falha BRL→SRD em 8.45 s: Message: no such element: Unable to locate element: {"method":"css selector","selector":".valorBRL"}
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001009b43cc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001009ac694 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x00000001004e9fbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001005311bc cxxbridge1$string$len + 381468
+4   chromedriver                        0x0000000100572044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001005253f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001009787f0 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x000000010097bac0 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x0000000100959dc4 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x000000010097c338 cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x000000010094b650 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x000000010099c29c cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x000000010099c428 cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001009ac2e0 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x00000001835542e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018354f0fc thread_start + 8
+Traceback (most recent call last):
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/cotacao_moedas.py", line 94, in consultar_cotacao
+    amount_input = driver.find_element(By.CLASS_NAME, "valorBRL")
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/.venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/.venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/.venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".valorBRL"}
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001009b43cc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001009ac694 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x00000001004e9fbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001005311bc cxxbridge1$string$len + 381468
+4   chromedriver                        0x0000000100572044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001005253f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001009787f0 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x000000010097bac0 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x0000000100959dc4 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x000000010097c338 cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x000000010094b650 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x000000010099c29c cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x000000010099c428 cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001009ac2e0 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x00000001835542e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018354f0fc thread_start + 8
+
+2025-05-17 09:28:39 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:30:27 INFO Config carregada: BRL → ['SRD', 'USD', 'GTQ', 'UGX', 'CHF']
+2025-05-17 09:31:23 ERROR Falha BRL→SRD em 48.64 s: Message: Select only works on <select> elements, not on button
+Traceback (most recent call last):
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/cotacao_moedas.py", line 139, in main
+    raw_valor, data_encontrada = consultar_cotacao(driver, moeda_in, moeda_out, hoje)
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/cotacao_moedas.py", line 98, in consultar_cotacao
+    Select(driver.find_element(By.ID, "button-converter-de")) \
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/.venv/lib/python3.9/site-packages/selenium/webdriver/support/select.py", line 39, in __init__
+    raise UnexpectedTagNameException(f"Select only works on <select> elements, not on {webelement.tag_name}")
+selenium.common.exceptions.UnexpectedTagNameException: Message: Select only works on <select> elements, not on button
+
+2025-05-17 09:37:12 ERROR Falha BRL→USD em 348.62 s: Message: Select only works on <select> elements, not on button
+Traceback (most recent call last):
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/cotacao_moedas.py", line 139, in main
+    start = time.time()
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/cotacao_moedas.py", line 98, in consultar_cotacao
+    btn_converter_de = driver.find_element(By.ID, "button-converter-de")
+  File "/Users/franciscomatos/PycharmProjects/cotacao_moedas/.venv/lib/python3.9/site-packages/selenium/webdriver/support/select.py", line 39, in __init__
+    raise UnexpectedTagNameException(f"Select only works on <select> elements, not on {webelement.tag_name}")
+selenium.common.exceptions.UnexpectedTagNameException: Message: Select only works on <select> elements, not on button
+
+2025-05-17 09:40:45 INFO Config carregada: Real (BRL) → ['Dólar dos Estados Unidos (USD)', 'Franco suíço (CHF)', 'Rublo (RUB)', 'Rupia do Sri Lanka (LKR)']
