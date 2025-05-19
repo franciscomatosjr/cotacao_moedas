@@ -93,4 +93,4 @@ Logs são emitidos em tempo real durante a execução, informando cada passo do 
 
 ## 📝 Licença
 
-MIT © [Seu Nome ou Organização]
+MIT © Francisco Matos
